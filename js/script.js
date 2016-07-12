@@ -2,42 +2,42 @@ var users = [{
         name: 'Suzy',
         gender: 'Female',
         hobby: 'Cooking',
-        avatar: 'girl-01.png'
+        avatar: 'girl-01.PNG'
     }, {
         name: 'Adam',
         gender: 'Male',
         hobby: 'Diving',
-        avatar: 'boy-01.png'
+        avatar: 'boy-01.PNG'
     }, {
         name: 'Lissa',
         gender: 'Female',
         hobby: 'Go Dancing',
-        avatar: 'girl-02.png'
+        avatar: 'girl-02.PNG'
     }, {
         name: 'Joe',
         gender: 'Male',
         hobby: 'Sports',
-        avatar: 'boy-02.png'
+        avatar: 'boy-02.PNG'
     }, {
         name: 'Miranda',
         gender: 'Female',
         hobby: 'Art',
-        avatar: 'girl-03.png'
+        avatar: 'girl-03.PNG'
     }, {
         name: 'Liam',
         gender: 'Gay',
         hobby: 'Read',
-        avatar: 'boy-03.png'
+        avatar: 'boy-03.PNG'
     }, {
         name: 'Betzy',
         gender: 'Bisexual',
         hobby: 'Shopping',
-        avatar: 'girl-04.png'
+        avatar: 'girl-04.PNG'
     }, {
         name: 'Grek',
         gender: 'Male',
         hobby: 'Ordinary things',
-        avatar: 'boy-04.png'
+        avatar: 'boy-04.PNG'
     }
 
 ];
