@@ -1,0 +1,233 @@
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	color: #330;
+	overflow-x: hidden;
+}
+
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/hero.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+h1 {
+	margin: 0;
+}
+
+button ,input[type=submit]{border: 0;}
+
+h1 em {
+	color: #fd0131;
+}
+
+/*HERO*/
+.hero-title {
+	position: absolute;
+	color: #e3e3e3;
+	font-size: 110%;
+	max-width: 1200px;
+	margin: 0 auto;
+	top: 190px;
+	left: 0;
+	right: 0;
+	text-transform: uppercase;
+}
+
+.hero-title > h1 {
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+/*LOGO*/
+.logo {
+	position: absolute;
+	float: right;
+	top: 5px;
+	left: 80%;
+	width: 200px;
+	height: auto;
+}
+
+/*LINKS BUTTONS*/
+.btn:visited, .btn:link, button, input[type=submit] {
+	display: block;
+	font-size: 70%;
+	background-color: #fe4467;
+	color: white;
+	padding: 15px;
+	margin-top: 50px;
+	text-align: center;
+	border-radius: 200px;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+}
+
+.btn:visited, .btn:link {
+	width: 15%;
+}
+
+
+.btn:hover, btn:active,
+button:hover,
+button:active, 
+input[type=submit]:hover {
+	background-color: #fe113e;
+}
+
+/*========================MAIN======================== */
+
+/*added by me*/
+.main {
+	padding: 50px 0;
+}
+
+.row {
+	margin: 10px 20px;
+	padding: 10px;/*added by me*/
+}
+
+
+/*added by me*/
+.row > h1 {
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fe113e;
+}
+
+/*added by me*/
+.row > input[type=submit] {margin-top: 0;}
+
+#results {
+	margin: 60px 20px 10px 0;
+}
+
+.person-row {
+	margin: 10px 15px 10px 0; /*10px 0*/
+	padding: 10px;
+	width: 30%;/*100%*/
+	float: left;
+	background-color: #f6f6f6;
+	box-shadow: 2px 2px 0 #ccc;/*added by me*/
+}
+
+.person-row img {
+	float: left;
+	margin-right: 20px;
+	width: auto;/*added by me*/
+	height: 150px;/*added by me*/
+}
+
+.person-row > button {
+	float: right;
+}
+
+.person-info {
+	float: left;
+}
+
+input[type=text]{
+	border: 0;
+	border-bottom: 1px solid #fe4467;
+}
+
+/*FOOTER*/
+
+.clearfix{zoom: 1;}
+.clearfix:after	{
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}	
+
+footer {
+	background-color: #444;
+	color: white;
+	font-size: 90%;
+	padding: 20px;
+	text-align: center;
+}
+/*SECTIONS*/
+.section-img {
+	position: relative;
+	background-image: linear-gradient(rgba(339,83,88,0.5),rgba(339,83,88,0.5)),url(../img/section.jpg);
+	background-position: center bottom;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.section-text {
+	position: absolute;
+	top: 150px;
+	left: 150px;
+	
+}
+
+.section-text > h2,
+.section-text > p {
+	color: #eee;
+}	
+
+.section-text > h2 {
+	color: #eee;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 5px;
+	
+}
+
+.section-text > p {
+	max-width: 30%;
+	line-height: 1.6;
+}
+
+.section-stay-connected {
+	background-color: #e02667;
+	text-align: center;
+	padding: 30px;
+	height: 200px;
+}
+
+.section-stay-connected > h2 {
+	margin: 0;
+	color: white;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+/*ICONS*/
+.ion-heart {
+	display: block;
+	padding-top: 15px;
+	font-size: 180%;
+	color: white;
+}
+
+ul.loveline > li {
+	display: inline-block;
+	padding-right: 25px;
+	
+}
+
+ul.loveline > li > a {
+	color: #bbb;
+}
+
+ul.loveline > li > a > i{
+	font-size: 150%;
+}
+
+ul.loveline > li > a:hover {
+	color: white;
+}
+
+ul.loveline li {list-style: none;}

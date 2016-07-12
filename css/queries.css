@@ -1,0 +1,78 @@
+@media only screen and (max-width: 1200px) {
+    .hero-title {
+        font-size: 90%;
+        left: 50px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .logo {
+        left: 65%;
+    }
+    .person-row {
+        /*margin: 10px 15px 10px 0;*/
+        /*10px 0*/
+        /*padding: 10px;*/
+        width: 100%;
+        /*100%*/
+    }
+    .section-text > p {
+        max-width: 50%;
+        /*line-height: 1.6;*/
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /*.hero-title {
+        font-size: 60%;
+    }*/
+    .logo {
+        left: 50%;
+    }
+    .btn:visited,
+    .btn:link {
+        width: 30%;
+    }
+    .section-img {
+        background-position: left center;
+    }
+    .section-text {
+        font-size: 70%;
+        top: 70px;
+        left: 40px;
+    }
+    .section-text > p {
+        max-width: 100%;
+        /*line-height: 1.6;*/
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .hero-title {
+        font-size: 55%;
+        display: block;
+    }
+    .logo {
+        left: 10%;
+    }
+    .btn:visited,
+    .btn:link {
+        width: 70%;
+    }
+    .main {
+        font-size: 60%;
+    }
+    footer {
+        font-size: 60%;
+    }
+    .section-stay-connected > h2 {
+        font-size: 70%;
+    }
+    .ion-heart {
+        font-size: 110%;
+    }
+
+    ul.loveline > li > a > i{
+    font-size: 100%;
+}
+}
